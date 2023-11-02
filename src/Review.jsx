@@ -18,7 +18,7 @@ function Review(){
         job: 'web designer',
         image:
           // 'https://media.licdn.com/dms/image/D5603AQHj0zu-uFsoSA/profile-displayphoto-shrink_800_800/0/1666027249363?e=2147483647&v=beta&t=x5te6S7T5VDpjhhhNPWVI1EvAQQR_kTZyCkYHLpihuA',
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiyPY0GyXXu5Vd7EABXN_Q1zhXm1-LtI9wYg&usqp=CAU",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfcGmjoVLyqY2RE7R0hddk3wJpMcKhFAW3A&usqp=CAU",
         text:
           'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.',
       },
@@ -79,12 +79,12 @@ function Review(){
         <p className="information">
           {data[index].text}
         </p>
-        {/* <span className="backward">
+        <span className="backward">
           <i class="bi bi-chevron-left" onClick={()=>{back()}}></i>
         </span >
         <span className="forward" >
           <i class="bi bi-chevron-right" onClick={()=>{right()}}></i>
-        </span ><br /> */}
+        </span ><br />
         <div>
         <button className="button" onClick={()=>{surprise()}}>Surprise Me</button>
         </div>
