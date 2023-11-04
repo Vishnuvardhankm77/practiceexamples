@@ -1,11 +1,15 @@
-import Review from './Review';
+import React from "react";
+import Questions from "./questions";
 function App() {
   return (
-    <main>
-        <div className='App'>
-          <Review></Review>
-        </div>
-    </main>
+   <div className="App">
+    <div className="main">
+    <h1>Questions And  Answers About Login</h1>
+     <center>
+     <Questions></Questions>
+     </center>
+   </div>
+   </div>
   );
 }
 
